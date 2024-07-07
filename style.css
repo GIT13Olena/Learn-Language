@@ -5,6 +5,7 @@
 
     --title-color: #000;
     --subtitle-color: #8f95a5;
+    --logo-color: #939393;
 
     --title-skills-color: #263238;
     --item-skills-background: #f5f5f5;
@@ -32,6 +33,8 @@ p{
 ul,
 ol{
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 a,button{
@@ -46,4 +49,49 @@ a,button{
     padding-left: 120px;
     padding-right: 120px;
     outline: 1px solid red;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding-top: 57px;
+    padding-left: 9px;
+}
+
+.header__logo {
+    font-weight: 400;
+    font-size: 36px;
+    color: var(--title-color);
+    margin-right: 244px;
+}
+
+.header__logo-color{
+    color: var(--logo-color);
+}
+
+.header-navigation {
+    margin-right: 278px;
+}
+
+.header-navigation__list {
+    display: flex;
+    align-items: center;
+    width: 492px;
+    justify-content:space-between;
+    
+}
+
+.header-navigation__link{
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--nav-color);
+}
+
+.header__link {
+    padding: 17px 57px ;
+    font-weight: 400;
+    font-size: 24px;
+    border: 2px solid var(--nav-color);
+    border-radius: 5px;
+
 }
