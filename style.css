@@ -13,6 +13,8 @@
     --button-color: #fff;
     --button-background: #263238;
 
+    --title-about-color: #2a3246;
+
 }
 
 body{
@@ -99,12 +101,12 @@ a,button{
 }
 
 .main-section-hero {
- display: flex;
- align-items: center;
- justify-content: space-between;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
- padding-left: 9px;
- padding-right: 3px;
+    padding-left: 9px;
+    padding-right: 3px;
 }
 
 .main-section-hero-box{
@@ -142,7 +144,7 @@ a,button{
 }
 
 .main-section-skills {
- padding: 103px 13px 141px 7px;
+    padding: 103px 13px 141px 7px;
 }
 
 .main-section-skills__title {
@@ -163,9 +165,9 @@ a,button{
 
 #oneItem{
     grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 1;
-  grid-row-end: 4;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 4;
 }
 
 #fourItem{
@@ -191,7 +193,7 @@ a,button{
 }
 
 .img-one{
-   padding: 35px 22px 4px 23px;
+    padding: 35px 22px 4px 23px;
 }
 
 .image-two{
@@ -215,16 +217,16 @@ a,button{
 .main-section-skills__item__title{
     color: var(--button-background);
     font-weight: 600;
-font-size: 30px;
-line-height: 267%;
+    font-size: 30px;
+    line-height: 267%;
 }
 
 .main-section-skills__subtitle{
     color: var(--subtitle-color);
     font-weight: 400;
-font-size: 16px;
+    font-size: 16px;
 
-margin-bottom: 33px;
+    margin-bottom: 33px;
 }
 
 .main-section-skills__button{
@@ -233,5 +235,58 @@ margin-bottom: 33px;
     font-weight: 500;
     font-size: 18px;
     border-radius: 5px;
+
     padding: 17px 63px 16px 64px;
+}
+
+.main-section-about {
+    display: flex;
+    align-items: center;
+
+    padding: 141px 20px 94px 11px;
+}
+
+.main-section-about-box {
+    margin-right: 194px ;
+}
+
+.main-section-about__title {
+    color: var(--title-color);
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 167%;
+
+    margin-bottom: 23px;
+}
+
+.main-section-about__subtitle {
+    width: 635px;
+    color: var(--subtitle-color);
+    font-weight: 400;
+    font-size: 20px;
+
+    margin-bottom: 42px;
+}
+
+.main-section-about__list {
+    display: flex;
+    justify-content: space-between;
+    width: 615px;
+}
+
+.main-section-about__item {
+    text-align: center;
+}
+
+.main-section-about__item__title {
+    color: var(--title-about-color);
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 167%;
+}
+
+.main-section-about__item__subtitle {
+    color: var(--subtitle-color);
+    font-weight: 400;
+    font-size: 20px;
 }
