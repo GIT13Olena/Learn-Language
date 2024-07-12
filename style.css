@@ -15,6 +15,9 @@
 
     --title-about-color: #2a3246;
 
+    --box-pricing-background: #eee;
+    --subtitle-pricing-background: #546269;
+
 }
 
 body{
@@ -241,7 +244,6 @@ a,button{
 
 .main-section-about {
     display: flex;
-    align-items: center;
 
     padding: 141px 20px 94px 11px;
 }
@@ -256,6 +258,7 @@ a,button{
     font-size: 48px;
     line-height: 167%;
 
+    margin-top: 30px;
     margin-bottom: 23px;
 }
 
@@ -290,3 +293,82 @@ a,button{
     font-weight: 400;
     font-size: 20px;
 }
+
+.main-section-pricing {
+ padding: 94px 14px 129px 10px;
+}
+
+.main-section-pricing__title {
+    text-align: center;
+    color: var(--title-color);
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 167%;
+    margin-bottom: 57px;
+}
+
+.main-section-pricing__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 1332px;
+}
+
+.main-section-pricing__box-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-section-pricing__item__title{
+    color: var(--title-skills-color);
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 160%; 
+    margin-top: 30px; 
+}
+
+.main-section-pricing__item__subtitle-one{
+    width: 424px;
+    color: var(--subtitle-color);
+    font-weight: 400;
+    font-size: 20px;
+    margin: 19px 0px 29px 0px;
+}
+
+.main-section-pricing__item__subtitle-two{
+    width: 372px;
+    color: var(--subtitle-color);
+    font-weight: 400;
+    font-size: 20px;
+    margin: 23px 0px 48px 0px;
+}
+
+.main-section-pricing__item__subtitle-three{
+    width: 432px;
+    color: var(--subtitle-color);
+    font-weight: 400;
+    font-size: 20px;
+    margin: 20px 0px 50px 0px;
+}
+
+.main-section-pricing__box-package{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 240px;
+    background-color: var(--box-pricing-background);
+}
+
+.main-section-pricing__box-package__priсe {
+    color: var(--title-skills-color);
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.main-section-pricing__box-package__length {
+    color: var(--subtitle-pricing-background);
+    font-weight: 400;
+    font-size: 18px;
+}
+
