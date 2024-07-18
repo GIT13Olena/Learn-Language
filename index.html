@@ -11,7 +11,11 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/computer.css">
+    <link rel="stylesheet" href="./css/tablet.css">
+    <link rel="stylesheet" href="./css/big-mobile.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+    <link rel="stylesheet" href="./modal.css">
 </head>
 <body>
   <div class="container">
@@ -39,6 +43,40 @@
       </nav>
 
       <a href="#" class="header__link">Let’s Talk</a>
+
+     <div id="openModalBtn">
+      <img src="./svg/header-burger-menu.svg" alt="Burger menu" class="header__burger-menu" >
+     </div>
+        
+      <div id="modal" class="modal">
+        <div class="modal-content">
+          <button id="closeModalBtn">&#10006;</button> 
+          <a href="./index.html" class="header__logo-menu">Brit<span class="header__logo-color-menu">lex</span></a>
+          <div class="header__line-menu"></div>
+          
+          <nav class="header-navigation-menu">
+            <ul class="header-navigation__list-menu" >
+              <li>
+                <a href="#" class="header-navigation__link-menu">Home</a>
+              </li>
+              <li>
+                <a href="#" class="header-navigation__link-menu">Skills</a>
+              </li>
+              <li>
+                <a href="#" class="header-navigation__link-menu">About Us</a>
+              </li>
+              <li>
+                <a href="#" class="header-navigation__link-menu">Pricing</a>
+              </li>
+              <li>
+                <a href="#" class="header-navigation__link-menu">Contacts</a>
+              </li>
+            </ul> 
+          </nav>
+          <a href="#" class="header__link-menu">Let’s Talk</a>
+        </div>
+      </div>
+      
     </header>
 
 
@@ -48,8 +86,8 @@
       <section class="main-section-hero">
         <div>
           <div class="main-section-hero-box">
-             <h1 class="main-section-hero__title" >Learn <br> Any Foreign Language</h1>
-             <img src="./svg/light-bulb-svg.svg" alt="lamp svg" >
+             <h1 class="main-section-hero__title" >Learn Any Foreign Language</h1>
+             <img src="./svg/light-bulb-svg.svg" alt="lamp svg" class="main-section-hero__lamp">
           </div>
          
           <p class="main-section-hero__subtitle">
@@ -73,7 +111,7 @@
             <div class="main-section-skills__box-one">
               <h3 class="main-section-skills__item__title">Speaking</h3>
             <p class="main-section-skills__subtitle">Improve your English skills and confidence. 
-              Live classes and interactive lessons online.20% extra free for a limited time only
+              Live classes and interactive lessons online. 20% extra free for a limited time only
               <br> 
               <br>
               Learn English online and improve your 
@@ -104,7 +142,7 @@
               <h3 class="main-section-skills__item__title">Reading</h3>
             <p class="main-section-skills__subtitle">
               Perception and response actions of the user
-              resulting from the use and/or upcoming use 
+              resulting from the use and/or up coming use 
               of the product, system or service
             </p>
             <button class="main-section-skills__button">Learn more</button>
@@ -222,7 +260,7 @@
         </p>
         <form class="main-section-contact__form">
           <input type="text" placeholder="Enter Your E-mail" class="main-section-contact__form__input">
-          <button type="submit" class="main-section-contact__form__button">Subscribe</button>
+          <button type="submit" class="main-section-contact__form__button"><span>Subscribe</span></button>
         </form>
         </div>
       </section>
@@ -241,6 +279,7 @@
       
     </footer>
   </div>
-    
+
+ <script src="./js/modal.js"></script>
 </body>
 </html>
