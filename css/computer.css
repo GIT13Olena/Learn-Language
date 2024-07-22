@@ -114,8 +114,7 @@ a,button{
     align-items: center;
     justify-content: space-between;
 
-    padding-left: 9px;
-    padding-right: 3px;
+    padding: 51px 3px 0px 9px;
 }
 
 .main-section-hero-box{
@@ -130,7 +129,7 @@ a,button{
     font-size: 64px;
     line-height: 125%;
 
-    margin: 0px 38px 41px 0px;
+    margin: 49px 38px 41px 0px;
 
 }
 
@@ -149,8 +148,14 @@ a,button{
     background-color: var(--button-background);
     font-weight: 400;
     font-size: 36px;
+    transition: background-color 0.3s ease-in-out;
 
     padding: 32px 117px 32px 118px;
+}
+
+.main-section-hero__button:hover,
+.main-section-hero__button:focus{
+    background-color: #181b1d;
 }
 
 .main-section-skills {
@@ -255,8 +260,14 @@ a,button{
     font-weight: 500;
     font-size: 18px;
     border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
 
     padding: 17px 63px 16px 64px;
+}
+
+.main-section-skills__button:hover,
+.main-section-skills__button:focus{
+    background-color: #181b1d;
 }
 
 .main-section-about {
@@ -455,7 +466,14 @@ a,button{
     font-weight: 500;
     font-size: 20px;    
     border-radius: 10px;
+    transition: background-color 0.3s ease-in-out;
+    
     padding: 25px 81px 25px 82px;
+}
+
+.main-section-contact__form__button:hover,
+.main-section-contact__form__button:focus{
+    background-color: #181b1d;
 }
 
 .footer {

@@ -93,7 +93,7 @@
   }
   
   .header-navigation__link-menu {
-    font-weight: 500;
+    font-weight: 400;
     font-size: 22px;
     line-height: 273%;
   }
@@ -102,5 +102,42 @@
     font-size: 22px;
   
     padding: 18px 116px;
+  }
+}
+
+@media (max-width: 320px){
+  .modal-content {
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 100%;
+    position: relative; 
+    padding: 25px 15px 0px 15px;
+  }
+
+  #closeModalBtn {
+    top: 25px;
+    right: 7px;
+  }
+
+  .header__line-menu{
+    width: 100%;
+    height: 1px;
+    margin-top: 20px;
+  }
+  
+  .header-navigation-menu {
+    margin-bottom: 80px;
+  }
+  
+  .header-navigation__link-menu {
+    font-size: 22px;
+    line-height: 295%;
+  }
+  
+  .header__link-menu {
+    width: 291px;
+    font-size: 20px;
+  
+    padding: 18px 88px;
   }
 }

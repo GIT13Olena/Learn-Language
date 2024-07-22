@@ -39,7 +39,7 @@
     }
 
     .main-section-hero {
-        padding-right: 1px;
+        padding: 68px 1px 0px 0px;
     }
     
     .main-section-hero__title {
@@ -299,7 +299,7 @@
     .main-section-contact__form__input {
         border-radius: 10px;
         width: 323px;
-        padding: 23px 0px 16px 38px ;
+        padding: 21px 0px 21px 38px;
     }
     
     .main-section-contact__form__input::placeholder {
@@ -308,7 +308,7 @@
     
     .main-section-contact__form__button {
         font-size: 16px;   
-        padding: 21px 56px 15px 56px;
+        padding: 20px 56px 20px 56px;
     }
 
     .footer {
