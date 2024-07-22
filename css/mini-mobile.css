@@ -1,3 +1,329 @@
 @media (max-width: 320px){
+    .container{
+        width: 320px;
+        margin: 0 auto;
+        padding-left: 15px;
+        padding-right: 15px;
+        outline: 1px solid red;
+    }
+
+    .header{
+        padding: 36px 0px 15px 0px;
+    }
+
+    .header__logo {
+        font-size: 24px;
+    }
+
+    .header__burger-menu{
+        width: 34px;
+        height: 19px;
+    }
+
+    .main-section-hero {
+        padding: 14px 0px 26px 0px;
+    }
     
+    .main-section-hero__title {
+        width: 220px;
+        font-size: 24px;
+        line-height: 133%;
+
+        margin: 0 auto;
+        margin-bottom: 29px;
+    }
+
+    .main-section-hero__lamp{
+        display: none;
+    }
+    
+    .main-section-hero__subtitle {
+        width: 292px;
+        font-size: 14px;
+    
+        margin: 0px 0px 35px 0px;
+    }
+    
+    .main-section-hero__button {
+        font-size: 16px;
+        min-width: 289px;
+        
+        padding: 18px 99px;
+    }
+
+    .main-section-hero__img{
+        width: 290px;
+        height: 290px;
+        margin-bottom: 25px;
+    }
+
+    .main-section-skills {
+        padding: 25px 0px 42px 0px;
+    }
+    
+    .main-section-skills__title {
+        font-size: 24px;
+        line-height: 333%;
+    
+        margin-bottom: 40px;
+    }
+    
+    .main-section-skills__list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     
+        gap: 21px;
+    }
+    
+    .main-section-skills__item{   
+        width: 290px;
+        border-radius: 5px;
+    }
+    
+    .image-one{
+        width: 213px;
+        height: 213px;
+
+        margin: 8px 38px 10px 39px;
+    }
+    
+    .image-two{
+        width: 204px;
+        height: 204px;
+        position: static;
+
+        margin: 16px 42px 11px 44px;
+    }
+    
+    .image-three{
+        width: 236px;
+        height: 157px;
+
+        margin: 29px 25px 20px 29px;
+    }
+    
+    .image-four{
+        width: 232px;
+        height: 154px;
+
+        margin: 33px 29px 19px 29px;
+    }
+    
+    .main-section-skills__box-one{
+        padding: 0px 18px 45px 16px;
+    }
+    
+    .main-section-skills__box-two{
+        padding: 0px 17px 44px 15px;
+    }
+    
+    .main-section-skills__box-three{
+        padding: 0px 17px 44px 15px;
+    }
+    
+    .main-section-skills__box-four{
+        padding: 0px 17px 57px 15px;
+    }
+    
+    .main-section-skills__subtitle{
+        font-size: 13px;
+    
+        margin-bottom: 33px;
+    }
+    
+    .main-section-skills__button{
+        min-width: 178px;
+
+        padding: 14px 43px;
+    }
+
+    .main-section-about {
+        padding: 25px 0px 42px 0px;
+    }
+    
+    .main-section-about-box {
+        width: 290px;
+        margin-right: 0px;
+    }
+    
+    .main-section-about__title {
+        position: absolute;
+        top: 0;
+        font-size: 30px;
+        line-height: 267%;
+        margin-bottom: 0px;
+    }
+    
+    .main-section-about__subtitle {
+        width: 290px;
+        font-size: 14px;
+    
+        margin: 23px 0px 9px 0px;
+    }
+    
+    .main-section-about__list {
+        width: 417px;
+        flex-direction: column;
+        gap: 23px;
+    }
+
+    .main-section-about__item__subtitle{
+        font-size: 15px;
+    }
+
+    .main-section-about__image{
+        width: 283px;
+        height: 283px;
+        margin-top: 80px;
+    }
+
+    .main-section-pricing {
+        padding: 42px 0px 86px 0px;
+    }
+       
+    .main-section-pricing__title {
+        font-size: 24px;
+        line-height: 333%;
+        margin-bottom: 49px;
+    }
+       
+    .main-section-pricing__list {
+        width: 290px;
+        gap: 63px;
+    }
+
+    .main-section-pricing__image-one{
+        width: 248px;
+        height: 248px;
+        margin-bottom: 28px;
+    }
+    
+    .main-section-pricing__image-two{
+        width: 257px;
+        height: 197px;
+        margin-bottom: 12px;
+    }
+    
+    .main-section-pricing__image-three{
+        width: 241px;
+        height: 241px;
+        margin-bottom: 7px;
+    }
+       
+    .main-section-pricing__item__title{
+        width: 223px;
+        font-size: 18px;
+        line-height: 156%;
+        margin: 0 auto;
+    }
+       
+    .main-section-pricing__item__subtitle-one{
+        width: 293px;
+        margin: 17px 0px 33px 0px;
+    }
+       
+    .main-section-pricing__item__subtitle-two{
+        width: 257px;
+        margin: 25px 0px 31px 0px;
+    }
+       
+    .main-section-pricing__item__subtitle-three{
+        width: 298px;
+        margin: 30px 0px 38px 0px;
+    }
+    
+    .main-section-pricing__box-package{
+        width: 170px;
+        border-radius: 5px;
+        margin: 0 auto;
+        padding: 5px;
+    }
+
+    .main-section-pricing__box-package__priсe {
+        font-size: 18px;
+    }
+
+    .main-section-pricing__box-package__length {
+        font-size: 14px;
+    }
+
+    .main-section-contact {
+        width: 290px;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+
+        padding: 56px 0px 57px 0px;
+    }
+
+    .main-section-contact__image{
+        width: 253px;
+        height: 228px;
+        margin-top: 90px;
+    }
+    
+    .main-section-contact__box{
+        width: 290px;
+    }
+    
+    .main-section-contact__title {
+        font-size: 24px;
+        line-height: 333%;
+        margin-bottom: 38px;
+    }
+    
+    .main-section-contact__subtitle {
+        width: 290px;
+        font-size: 14px;
+        margin-top: 38px;
+        margin-bottom: 31px;
+    }
+    
+    .main-section-contact__form {
+        width: 510px;
+        flex-direction: column;
+        gap: 17px;
+    }
+    
+    .main-section-contact__form__input {
+        width: 290px;
+        padding: 20px 0px 20px 25px;
+    }
+    
+    .main-section-contact__form__input::placeholder {
+        font-size: 12px;
+    }
+    
+    .main-section-contact__form__button {
+        min-width: 290px;
+        font-size: 14px;
+        padding: 21px 56px 20px 56px;
+    }
+
+    .footer {
+        padding: 0px 2px 0px 3px;
+    }
+    
+    .footer__line {
+        width: 290px;
+        height: 1px;
+    }
+    
+    .footer__box{
+        width: 290px;
+        flex-direction: column;
+        gap: 15px;
+        padding: 26px 0px 46px 0px;
+    }
+
+    .footer__logo {
+        font-size: 24px;
+    }
+    
+    .footer__subtitle {
+        width: 292px;
+        font-size: 11px;
+    }
 }

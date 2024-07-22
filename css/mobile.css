@@ -20,7 +20,6 @@
         height: 24px;
     }
 
-
     .main-section-hero {
         text-align: center;
         flex-direction: column-reverse;
@@ -42,7 +41,6 @@
         margin: 0 auto;
         margin-bottom: 29px;
     }
-
 
     .main-section-hero__lamp{
         display: none;
@@ -281,7 +279,10 @@
     }
     
     .main-section-pricing__box-package{
+        width: 205px;
+        border-radius: 5px;
         margin: 0 auto;
+        padding: 7px;
     }
 
     .main-section-contact {
