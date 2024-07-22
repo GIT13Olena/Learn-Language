@@ -17,14 +17,9 @@
     .header__logo {
         font-size: 30px;
     
-        margin-right: 244px;
+        margin-right: 0px;
     }
     
-    .header-navigation__link{
-        font-size: 20px;
-        color: var(--nav-color);
-    }
-
     .header-navigation {
         display: none;
     }
@@ -68,7 +63,8 @@
     
     .main-section-hero__button {
         font-size: 18px;
-    
+        min-width: 236px;
+        
         padding: 19px 67px;
     }
 
@@ -94,28 +90,27 @@
     }
     
 
-    #fourItem{
+    .fourItem{
         padding-right: 0px;
     }
 
     .image-one{
-        width: 224px;
+        width: 214px;
         height: 214px;
-        padding: 31px 9px 2px 0px;
-        margin: 0;
+        margin: 31px 9px 2px 1px;
     }
     
     .image-two{
-        width: 224px;
+        width: 200px;
         height: 200px;
-        padding: 14px 24px 0px 0px;
+        margin: 14px 24px 0px 0px;
         position: static;
     }
     
     .image-three{
-        width: 224px;
+        width: 216px;
         height: 144px;
-        padding: 34px 14px 0px 0px;
+        margin: 34px 14px 0px 2px;
     }
 
     .image-four{

@@ -18,21 +18,11 @@
 }
  
 #closeModalBtn {
-  width: 39px;
-  height: 39px;
   position: absolute;
   top: 22px;
   right: 15px;
-  font-size: 24px;
   background: none;
   border: none;
-  cursor: pointer;
-  color: grey;
-    
-}
- 
-#closeModalBtn:hover {
-  color: #000000;
 }
 
 .header__logo-menu {
@@ -74,4 +64,43 @@
   border-radius: 5px;
 
   padding: 17px 57px;
+}
+
+@media (max-width: 575px){
+  .modal-content {
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 100%;
+    position: relative; 
+    padding: 55px 32px 0px 33px;
+  }
+
+  #closeModalBtn {
+    top: 54px;
+    right: 23px;
+    background: none;
+    border: none;
+  }
+
+  .header__line-menu{
+    width: 100%;
+    height: 1px;
+    margin-top: 44px;
+  }
+  
+  .header-navigation-menu {
+    margin-bottom: 80px;
+  }
+  
+  .header-navigation__link-menu {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 273%;
+  }
+  
+  .header__link-menu {
+    font-size: 22px;
+  
+    padding: 18px 116px;
+  }
 }

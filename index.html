@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="./css/tablet.css">
     <link rel="stylesheet" href="./css/big-mobile.css">
     <link rel="stylesheet" href="./css/mobile.css">
-    <link rel="stylesheet" href="./modal.css">
+    <link rel="stylesheet" href="./css/modal.css">
 </head>
 <body>
   <div class="container">
@@ -50,7 +50,9 @@
         
       <div id="modal" class="modal">
         <div class="modal-content">
-          <button id="closeModalBtn">&#10006;</button> 
+          <button id="closeModalBtn">
+            <img src="./svg/modal-close-svg.svg" alt="Close svg" class="modal__close">
+          </button> 
           <a href="./index.html" class="header__logo-menu">Brit<span class="header__logo-color-menu">lex</span></a>
           <div class="header__line-menu"></div>
           
@@ -106,7 +108,7 @@
         <h2 class="main-section-skills__title">Skills</h2>
 
         <ul class="main-section-skills__list">
-          <li class="main-section-skills__item" id="oneItem">
+          <li class="main-section-skills__item oneItem">
             <img src="./svg/skills-speaking-svg.svg" alt="speaking" class="image-one" >
             <div class="main-section-skills__box-one">
               <h3 class="main-section-skills__item__title">Speaking</h3>
@@ -136,7 +138,7 @@
             
           </li>
 
-          <li class="main-section-skills__item">
+          <li class="main-section-skills__item" >
             <img src="./svg/skills-reading-svg.svg" alt="reading" class="image-three">
             <div class="main-section-skills__box-three">
               <h3 class="main-section-skills__item__title">Reading</h3>
@@ -150,7 +152,7 @@
             
           </li>
 
-          <li class="main-section-skills__item" id="fourItem">
+          <li class="main-section-skills__item fourItem" >
             <div class="main-section-skills__box-four">
               <h3 class="main-section-skills__item__title">Listening</h3>
             <p class="main-section-skills__subtitle">
@@ -171,7 +173,8 @@
 
       <section class="main-section-about">
         <div class="main-section-about-box">
-          <h2 class="main-section-about__title">About Us</h2>
+            <h2 class="main-section-about__title">About Us</h2>
+          
         <p class="main-section-about__subtitle">
           The model offers a framework for discussing problems 
           related to the user's experience, as well as possible 

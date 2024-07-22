@@ -7,6 +7,20 @@
         outline: 1px solid red;
     }
 
+    .header{
+        padding: 39px 19px 11px 2px;
+    }
+
+    .header__logo {
+        font-size: 30px;
+    }
+
+    .header__burger-menu{
+        width: 43px;
+        height: 24px;
+    }
+
+
     .main-section-hero {
         text-align: center;
         flex-direction: column-reverse;
@@ -44,7 +58,8 @@
     .main-section-hero__button {
         border-radius: 5px;
         font-size: 18px;
-    
+        min-width: 305px;
+        
         padding: 24px 101px 24px 102px;
     }
 
@@ -55,7 +70,7 @@
     }
 
     .main-section-skills {
-        padding: 48px 12px 141px 13px;
+        padding: 48px 12px 42px 13px;
     }
     
     .main-section-skills__title {
@@ -72,27 +87,26 @@
         gap: 30px 34px;
     }
     
-    #oneItem{
+    .oneItem{
         grid-column-start: 1;
         grid-column-end: 2;
         grid-row-start: 1;
         grid-row-end: 2;
+
     }
     
-    #fourItem{
-        display: flex;
+    .fourItem{
         flex-direction: column-reverse;
-        align-items: center;
+        justify-content: flex-end;
         grid-column-start: 2;
         grid-column-end: 2;
         grid-row-start: 2;
         grid-row-end: 2;
-        padding-right: 25px;
+        padding-right: 0px;
     }
     
     .main-section-skills__item{
-        border-radius: 10px;
-        background-color: var(--item-skills-background);
+        border-radius: 5px;
     }
     
     .main-section-skills__item:nth-child(2){
@@ -100,68 +114,251 @@
     }
     
     .image-one{
-        width: 240px;
+        width: 185px;
         height: 185px;
-        padding: 35px 46px 0px 9px;
+
+        margin: 0px 46px 0px 9px;
     }
     
     .image-two{
-        width: 240px;
+        width: 182px;
         height: 182px;
         position: static;
-        padding: 5px 35px 0px 23px;
+
+        margin: 5px 35px 0px 23px;
     }
     
     .image-three{
-        width: 240px;
+        width: 198px;
         height: 132px;
-        padding: 30px 44px 0px 0px;
+
+        margin: 30px 42px 0px 0px;
     }
     
     .image-four{
-        width: 240px;
+        width: 206px;
         height: 137px;
+
+        margin: 38px 22px 0px 12px;
     }
     
     .main-section-skills__box-one{
-        padding: 0px 51px 92px 43px;
+        padding: 0px 36px 36px 15px;
     }
     
     .main-section-skills__box-two{
-        padding: 251px 50px 0px 43px;
+        padding: 0px 44px 36px 21px;
     }
     
     .main-section-skills__box-three{
-        padding: 0px 29px 44px 43px;
+        padding: 0px 25px 36px 15px;
     }
     
     .main-section-skills__box-four{
-        padding: 43px 0px 68px 48px;
-        margin-right: 95px;
+        padding: 0px 0px 0px 21px;
     }
     
     .main-section-skills__item__title{
-        color: var(--button-background);
-        font-weight: 600;
-        font-size: 30px;
-        line-height: 267%;
+        font-size: 18px;
+        line-height: 444%;
     }
     
     .main-section-skills__subtitle{
-        color: var(--subtitle-color);
-        font-weight: 400;
-        font-size: 16px;
+        font-size: 12px;
     
-        margin-bottom: 33px;
+        margin-bottom: 23px;
     }
     
     .main-section-skills__button{
-        color: var(--button-color);
-        background-color: var(--button-background);
-        font-weight: 500;
-        font-size: 18px;
-        border-radius: 5px;
+        font-size: 14px;
+        min-width: 200px;
+
+        padding: 14px 54px 13px 54px;
+    }
+
+    .main-section-about {
+        position: relative;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        padding: 26px 0px 65px 0px;
+    }
     
-        padding: 17px 63px 16px 64px;
+    .main-section-about-box {
+        width: 510px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-right: 0px;
+    }
+    
+    .main-section-about__title {
+        position: absolute;
+        top: 0;
+        font-size: 30px;
+        line-height: 267%;
+        margin-bottom: 0px;
+    }
+    
+    .main-section-about__subtitle {
+        width: 510px;
+        font-size: 14px;
+    
+        margin: 25px 0px 19px 0px;
+    }
+    
+    .main-section-about__list {
+        width: 417px;
+    }
+    
+    .main-section-about__item__title {
+        font-size: 24px;
+        line-height: 333%;
+    }
+
+    .main-section-about__image{
+        width: 352px;
+        height: 352px;
+        margin-top: 103px;
+    }
+
+    .main-section-pricing {
+        padding: 66px 0px 82px 0px;
+    }
+       
+    .main-section-pricing__title {
+        font-size: 30px;
+        line-height: 267%;
+        margin-bottom: 54px;
+    }
+       
+    .main-section-pricing__list {
+        width: 510px;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        gap: 71px;
+    }
+
+    .main-section-pricing__image-one{
+        width: 291px;
+        height: 291px;
+        margin-bottom: 29px;
+    }
+    
+    .main-section-pricing__image-two{
+        width: 314px;
+        height: 241px;
+        margin-bottom: 21px;
+    }
+    
+    .main-section-pricing__image-three{
+        width: 253px;
+        height: 253px;
+    }
+       
+    .main-section-pricing__item__title{
+        width: 298px;
+        font-size: 24px;
+        line-height: 117%;
+        margin: 0 auto;
+    }
+       
+    .main-section-pricing__item__subtitle-one{
+        width: 390px;
+        margin: 14px 0px 14px 0px;
+    }
+       
+    .main-section-pricing__item__subtitle-two{
+        width: 330px;
+        margin: 12px 0px 35px 0px;
+    }
+       
+    .main-section-pricing__item__subtitle-three{
+        width: 390px;
+        margin: 15px 0px 60px 0px;
+    }
+    
+    .main-section-pricing__box-package{
+        margin: 0 auto;
+    }
+
+    .main-section-contact {
+        width: 510px;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+
+        padding: 81px 0px 144px 0px;
+    }
+
+    .main-section-contact__image{
+        width: 358px;
+        height: 322px;
+        margin-top: 83px;
+    }
+    
+    .main-section-contact__box{
+        width: 510px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    
+    .main-section-contact__title {
+        position: absolute;
+        top: 0;
+        font-size: 30px;
+        line-height: 267%;
+        margin-bottom: 0px;
+    }
+    
+    .main-section-contact__subtitle {
+        width: 480px;
+        font-size: 16px;
+        margin-bottom: 34px;
+    }
+    
+    .main-section-contact__form {
+        width: 510px;
+    }
+    
+    .main-section-contact__form__input {
+        width: 300px;
+        border-radius: 5px;
+        padding: 20px 0px 20px 25px;
+    }
+    
+    .main-section-contact__form__input::placeholder {
+        font-size: 13px;
+    }
+    
+    .main-section-contact__form__button {
+        min-width: 193px;
+        border-radius: 5px;
+        padding: 21px 56px 15px 56px;
+    }
+
+    .footer {
+        padding: 0px 2px 0px 3px;
+    }
+    
+    .footer__line {
+        width: 510px;
+        height: 1px;
+    }
+    
+    .footer__box{
+        width: 510px;
+        padding: 24px 2px 26px 2px;
+    }
+    
+    .footer__subtitle {
+        font-size: 12px;
     }
 }

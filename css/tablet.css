@@ -92,26 +92,27 @@
         gap: 12px 13px;
     }
 
-    #fourItem{
+    .fourItem{
         padding-right: 18px;
     }
     
     .image-one{
-        width: 303px;
+        width: 260px;
         height: 260px;
-        padding: 0px 21px 0px 22px;
+        margin: 0px 21px 0px 22px;
         margin: 0;
     }
     
     .image-two{
         width: 205px;
         height: 205px;
+        margin: 5px 10px 0px 87px;
     }
     
     .image-three{
         width: 243px;
         height: 162px;
-        padding-top: 16px;
+        margin: 16px 58px 0px 3px;
     }
 
     .image-four{
@@ -124,7 +125,7 @@
     }
     
     .main-section-skills__box-two{
-        padding: 180px 33px 30px 29px;
+        padding: 0px 33px 30px 29px;
     }
     
     .main-section-skills__box-three{

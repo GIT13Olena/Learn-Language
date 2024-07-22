@@ -173,14 +173,14 @@ a,button{
     gap: 20px 18px;
 }
 
-#oneItem{
+.oneItem{
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 4;
 }
 
-#fourItem{
+.fourItem{
     display: flex;
     align-items: center;
     grid-column-start: 2;
@@ -195,23 +195,16 @@ a,button{
     background-color: var(--item-skills-background);
 }
 
-.main-section-skills__item:nth-child(2){
-    position: relative;
-}
-
 .image-one{
-    width: 435px;
+    width: 390;
     height: 390px;
-    padding: 35px 22px 0px 23px;
-    margin-bottom: 4px;
+    margin: 35px 22px 4px 23px;
 }
 
 .image-two{
     width: 293px;
     height: 293px;
-    position: absolute;
-    top: 0;
-    right: 0;
+    margin: 0px 0px 0px 141px;
 }
 
 .image-three{
@@ -220,7 +213,7 @@ a,button{
 }
 
 .image-four{
-    width: 372px;
+    width: 382px;
     height: 255px;
 }
 
@@ -229,7 +222,7 @@ a,button{
 }
 
 .main-section-skills__box-two{
-    padding: 251px 50px 0px 43px;
+    padding: 0px 50px 20px 43px;
 }
 
 .main-section-skills__box-three{
