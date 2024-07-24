@@ -7,10 +7,12 @@ closeModalBtn.addEventListener("click", closeModal);
 
 function openModal() {
     modal.style.display = "block";
+    document.body.classList.add("body-no-scroll");
 }
-  
+
 function closeModal() {
     modal.style.display = "none";
+    document.body.classList.remove("body-no-scroll");
 }
 
 const handleOnClose = e => {
@@ -18,5 +20,5 @@ const handleOnClose = e => {
         closeModal();
     }
 };
-     
+
 window.addEventListener('keydown', handleOnClose);

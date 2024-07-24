@@ -1,4 +1,6 @@
-
+.body-no-scroll {
+  overflow: hidden;
+}
 
 .modal {
   display: none;
@@ -17,8 +19,10 @@
   height: 100%;
   position: relative; 
   padding: 39px 15px 0px 39px;
+  overflow-y: auto;
+  max-height: 100%;
 }
- 
+
 #closeModalBtn {
   position: absolute;
   top: 22px;
