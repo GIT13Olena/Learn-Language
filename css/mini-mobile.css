@@ -163,9 +163,9 @@
     }
     
     .main-section-about__list {
-        width: 417px;
+        width: 290px;
         flex-direction: column;
-        gap: 23px;
+        gap: 23px;  
     }
 
     .main-section-about__item__subtitle{
@@ -281,7 +281,7 @@
     }
     
     .main-section-contact__form {
-        width: 510px;
+        width: 290px;
         flex-direction: column;
         gap: 17px;
     }
@@ -322,7 +322,7 @@
     }
     
     .footer__subtitle {
-        width: 292px;
+        width: 290px;
         font-size: 11px;
     }
 }
